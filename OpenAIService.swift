@@ -5,7 +5,7 @@
 //  Created by SAIL on 24/06/25.
 //
 
-//private let apiKey = "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"
+
 import Foundation
 
 class OpenAIService {
