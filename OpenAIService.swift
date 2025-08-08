@@ -10,7 +10,7 @@ import Foundation
 
 class OpenAIService {
     static let shared = OpenAIService()
-    private let apiKey = "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" // Replace with your real key
+    private let apiKey = "" // Replace with your real key
 
     func sendMessage(_ message: String, completion: @escaping (String?) -> Void) {
         guard let url = URL(string: "https://openrouter.ai/api/v1/chat/completions") else {
