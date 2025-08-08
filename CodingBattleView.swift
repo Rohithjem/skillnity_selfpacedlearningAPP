@@ -244,7 +244,7 @@ struct CodingBattleView: View {
         var request = URLRequest(url: URL(string: "https://judge0-ce.p.rapidapi.com/submissions?base64_encoded=false&wait=true")!)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.addValue("3f77316930mshe3e1297c8c19413p12f461jsn6411f63ed8ab", forHTTPHeaderField: "X-RapidAPI-Key")
+        request.addValue("YOUR API KEY", forHTTPHeaderField: "X-RapidAPI-Key")
         request.addValue("judge0-ce.p.rapidapi.com", forHTTPHeaderField: "X-RapidAPI-Host")
         request.httpBody = jsonData
 
